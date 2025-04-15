@@ -1,0 +1,18 @@
+# Show/Hide items from the menu bar.  Always Show = 18, Show When Active = 2, Don't Show = 8
+
+defaults write ByHost/com.apple.controlcenter.2AE8D7FC-3091-547F-8CCE-BE5CD85B344B.plist Sound -int 18
+
+# VoiceControl - Not sure what this is exactly
+#defaults write ByHost/com.apple.controlcenter.2AE8D7FC-3091-547F-8CCE-BE5CD85B344B.plist VoiceControl -int 8
+
+# WiFi
+#defaults write ByHost/com.apple.controlcenter.2AE8D7FC-3091-547F-8CCE-BE5CD85B344B.plist WiFi -int 8
+
+# Bluetooth
+#defaults write ByHost/com.apple.controlcenter.2AE8D7FC-3091-547F-8CCE-BE5CD85B344B.plist Bluetooth -int 8
+
+# Turn off the abomination that is natural scroll
+defaults write -g com.apple.swipescrolldirection -bool false
+
+# Fix keyboard navigation - tab
+defaults write NSGlobalDomain AppleKeyboardUIMode 3
